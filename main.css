@@ -1,0 +1,176 @@
+body{
+
+font-size: 40px;
+background-color:lightgray;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+#nav{
+	display: flex;
+	background-color: #c29ba2;
+
+	padding: 1px;
+	justify-content: center;
+	 box-shadow:-1px 24px 15px -16px rgba(0,0,0,0.56);
+	 position:fixed;
+	 width: 100%;
+	 z-index: 50;
+}
+#nav > div {
+background-color:#CDDC39;
+	opacity: 0.9 !important;
+margin: 10px;
+padding: 20px;
+font-size:26px;
+font-family:sans-serif;
+color:gray;
+font-weight:bold;
+border-radius: 10px
+
+
+}
+
+#home{
+	position:relative;
+	width:auto;
+	height:24em;
+	background-image: url("back2.jpg");
+
+
+
+}
+.slogan{
+	position: absolute;
+	font-family: 'Alex Brush', cursive;
+	color: #bbdc39;
+
+	font-size:3em;
+	font-weight: bold;
+	margin: 1.6em;
+}
+#nav > div:hover {
+
+color:white;
+background-color:gray;
+}	
+/*
+main container
+*/
+.box1{
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top:10px
+
+
+}
+
+/*
+contains flower image and box3
+*/
+.box2{
+
+	
+	
+	background-color: white;
+	border-radius: 15px;
+	margin: 20px;
+	padding:15px;
+	text-align: center;
+	
+-webkit-box-shadow: 10px 10px 37px 2px rgba(252,211,236,1);
+-moz-box-shadow: 10px 10px 37px 2px rgba(252,211,236,1);
+box-shadow: 10px 10px 37px 2px rgba(252,211,236,1);
+width:9.5em
+	
+
+}
+
+/*
+box contains the name and the price of a flower 
+*/
+.box3{
+
+border-top: 2px solid gray;
+padding:5px
+
+}
+
+
+
+
+
+
+
+
+.jasmin-desc{
+
+float: left;
+margin-bottom:20px;
+width:30%
+}
+
+.price-avail{
+	margin: 0px 10px 10px 125px;
+	font-size:1em;
+clear:both;
+
+}
+.flower-name{
+	font-size:50px
+	margin:0px;
+}
+.detail-container{ 
+	margin-top: 0.9em;
+	font-size: 0.5em;
+
+	background-color: #D0F0C0;
+	border: 1px solid darkgreen;
+	border-radius: 20px;
+}
+
+.gmap_canvas{ 
+
+	float:left;
+	
+	overflow:hidden;
+	background:none!important;
+	height:300px;
+	width:300px;
+	border-radius: 10px;
+
+
+	
+	}
+
+.contact-info{
+font-family: 'Montserrat', sans-serif;
+font-size: 0.8em;
+line-height: 1.9;
+margin-left: 17em;
+
+}
+
+.location{
+	margin: 10px;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	border-radius: 10px;
+background-color:lightgray;
+flex-wrap: wrap;
+border: 2px solid gray;
+
+
+}
+
+
+
+
+a {
+    text-decoration: none !important;
+}
